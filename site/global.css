@@ -1,0 +1,28 @@
+@import url(sucess.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #3e3e3e;
+  
+    --white: #F6F8FF;
+    --silver: #6e6e6e;
+    --purple: rgba(36, 36, 158, 0.897);
+    --purple-light: #140d0ddc;
+  }
+  
+  body, button, a, input {
+    color: var(--text);
+    font: 400 1rem "Open Sans", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }

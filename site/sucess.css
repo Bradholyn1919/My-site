@@ -1,0 +1,54 @@
+
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    background: linear-gradient(
+  338deg,
+  var(--purple-light) 35%,
+  var(--purple) 35%,
+  var(--purple) 65%,
+  var(--purple-light) 65%
+);
+
+}
+
+main{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 3px 3px 25px 6px rgba(0, 0,0, 0.2);
+    border-radius: 40px ;
+
+
+}
+.success{
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+}
+.success h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    height:0 ;
+    overflow: hidden;
+    animation: animacaoText 1s forwards;
+    animation-delay: 2s ;
+}
+
+
+@keyframes animacaoText{
+0% {
+    height: 0;
+}
+100% {
+    height: 96px;
+    margin-bottom: 60px;
+}
+
+}
